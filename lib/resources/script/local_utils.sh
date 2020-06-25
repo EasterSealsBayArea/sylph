@@ -76,7 +76,7 @@ build_debug_ipa() {
 
 #    echo "Building debug .ipa for upload to Device Farm..."
 
-    flutter packages get > /dev/null # in case building from a different flutter repo
+    #flutter packages get > /dev/null # in case building from a different flutter repo
 
     local build_config # designates the debug, profile or release build config when archiving
     # note: build config is expected to use a conventional format described below.
